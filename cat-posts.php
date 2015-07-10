@@ -19,7 +19,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 add_action( 'wp_enqueue_scripts', 'category_posts_widget_styles' );
 
 function category_posts_widget_styles() {
-	wp_register_style( 'category-posts', plugins_url( 'category-posts/cat-posts.css' ) );
+	wp_register_style( 'category-posts', plugins_url( 'category-posts-widget/cat-posts.css' ) );
 	wp_enqueue_style( 'category-posts' );
 }
 
