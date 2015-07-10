@@ -1,6 +1,6 @@
 /*
 Default CSS Styles for the Category Posts Widget plugin
-Version: 4.0
+Version: 4.1
 */
 .cat-post-widget * {
 	margin: 0;
@@ -14,26 +14,28 @@ Version: 4.0
 	margin-bottom: 0;
 }
 .cat-post-widget .post-title {
-	font-size: 15px;	
-}
-.cat-post-widget .current-post {
+	font-size: 1.5rem;	
 	font-weight: bold;
-	text-transform: uppercase;
+}
+.cat-post-widget i {
+	font-size: 1.5rem;	
+
 }
 .cat-post-widget .post-date {
 	font-style: italic;
 	margin-bottom: 0;
 }
 .cat-post-widget img {
-	float: left; 
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+	 border: 3px solid #fff;
+	float: left;
 	margin: 5px 10px 0 0;
 }
 .cat-post-widget ul li {
-	border-bottom: 1px solid #ccc;
+ border-bottom: 1px dashed #000;
 	list-style: none;
 	list-style-type: none;
-	margin: 3px 0;
-	padding: 3px 0;
+	padding: 20px 0;
 }
 .cat-post-widget ul li:last-child {
 	border-bottom: none;
@@ -42,8 +44,8 @@ Version: 4.0
 	display: inline;
 }
 .cat-post-widget .post-entry { 
-   	overflow: hidden;
-   	padding: 0 0 5px 0;
+   padding: 0 0 5px 0;
+   overflow: hidden;
 }
 .cat-post-widget .comment-num {
 }
